@@ -2,7 +2,16 @@
     "run": {
         "@path": "/.c9/runners",
         "configs": {
-            "json()": {},
+            "json()": {
+                "Deploy": {
+                    "runner": "Shell script",
+                    "command": "./deploy.bash",
+                    "debug": true,
+                    "cwd": "/",
+                    "env": {},
+                    "name": "Deploy"
+                }
+            },
             "@inited": "true"
         },
         "@runner": "Shell script"
